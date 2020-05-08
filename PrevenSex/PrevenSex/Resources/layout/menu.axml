@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="#ccff1744"
+			app:popupTheme="@style/AppTheme.PopupOverlay"
+			android:textAlignment="center" />
+
+    </android.support.design.widget.AppBarLayout>
+	<GridLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:columnCount="3"
+		android:rowCount="9"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"
+		>
+		<ImageButton			
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:src="@mipmap/ic_botonpanico"
+			android:id="@+id/img_btn_botonpanico"
+		/>
+		<ImageButton
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:src="@mipmap/ic_miscontactosconfianza"
+			android:id="@+id/img_btn_miscontactosconfianza"
+		/>
+		<ImageButton
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:src="@mipmap/ic_llamadasemergencia"
+			android:id="@+id/img_btn_llamadasEmergencia"
+		/>
+		<ImageButton
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:src="@mipmap/ic_interrupcionlegalembarazo"
+			android:id="@+id/img_btn_interrupcionLegalEmbarazo"
+		/>
+		
+		<ImageButton
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:src="@mipmap/ic_serviciosmedicosadolecentes"
+			android:id="@+id/img_btn_serviciosMedicosAdolecentes"
+		/>
+		<ImageButton
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:src="@mipmap/ic_detectarviolencia"
+			android:id="@+id/img_btn_detectarViolencia"
+		/>
+		<ImageButton
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:src="@mipmap/ic_interaccion"
+			android:id="@+id/img_btn_interaccion"
+		/>
+		<ImageButton
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:src="@mipmap/ic_encuestas"
+			android:id="@+id/img_btn_encuestas"
+		/>
+		<ImageButton
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:src="@mipmap/ic_preguntasfrecuentes"
+			android:id="@+id/img_btn_preguntasFrecuentes"
+		/>
+	</GridLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

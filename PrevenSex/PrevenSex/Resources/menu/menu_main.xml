@@ -1,9 +1,61 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-    <item
-        android:id="@+id/action_settings"
+  <item
+     android:id="@+id/btn_action_botonPanico"
+     android:orderInCategory="100"
+     android:title="Botón de pánico"
+     app:showAsAction="never"/>
+  <item
+        android:id="@+id/btn_action_misContactosConfianza"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="Mis contactos de confianza"
         app:showAsAction="never" />
+  <item
+        android:id="@+id/btn_action_llamadasEmergencia"
+        android:orderInCategory="100"
+        android:title="Llamadas de emergencia"
+        app:showAsAction="never" />
+  <item
+        android:id="@+id/btn_action_interrupcionLegalEmbarazo"
+        android:orderInCategory="100"
+        android:title="Interrupción legal del embarazo"
+        app:showAsAction="never" />
+  <item
+        android:id="@+id/btn_action_serviciosMedicosAdolecentes"
+        android:orderInCategory="100"
+        android:title="Servicios médicos para adolecentes"
+        app:showAsAction="never" />
+  <item
+        android:id="@+id/btn_action_detectarViolencia"
+        android:orderInCategory="100"
+        android:title="Cómo dectectar violencia de genero"
+        app:showAsAction="never" />
+  <item
+        android:id="@+id/btn_action_interaccion"
+        android:orderInCategory="100"
+        android:title="Interacción"
+        app:showAsAction="never" />
+  <item
+        android:id="@+id/btn_action_encuestas"
+        android:orderInCategory="100"
+        android:title="Encuestas"
+        app:showAsAction="never" />
+  <item
+        android:id="@+id/btn_action_contactanos"
+        android:orderInCategory="100"
+        android:title="Contáctanos"
+        app:showAsAction="never" />
+  <item
+        android:id="@+id/btn_action_preguntasFrecuentes"
+        android:orderInCategory="100"
+        android:title="Preguntas frecuentes"
+        app:showAsAction="never" />
+  <item
+        android:id="@+id/btn_action_acercaDe"
+        android:orderInCategory="100"
+        android:title="Acerca de"
+        app:showAsAction="never" />
+   
+  
 </menu>
