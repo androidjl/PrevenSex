@@ -27,6 +27,11 @@ namespace PrevenSex
                 Intent intent = new Intent(this, typeof(MenuCls));
                 StartActivity(intent);
             };
+            Button buttonOmiitir = FindViewById<Button>(Resource.Id.buttonOmitir);
+            buttonOmiitir.Click += delegate {
+                Intent intent = new Intent(this, typeof(MenuCls));
+                StartActivity(intent);
+            };
 
         }
 
