@@ -37,6 +37,11 @@ namespace PrevenSex
                 Intent intent = new Intent(this, typeof(BotonPanicoCls));
                 StartActivity(intent);
             }
+            else if (id == Resource.Id.btn_action_detectarViolencia)
+            {
+                /*Intent intent = new Intent(this, typeof(DetectarViolenciaCls));
+                StartActivity(intent);*/
+            }
             else if (id == Resource.Id.btn_action_encuestas)
             {
                 Intent intent = new Intent(this, typeof(EncuestasCls));

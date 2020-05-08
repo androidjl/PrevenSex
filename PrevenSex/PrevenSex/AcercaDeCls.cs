@@ -78,6 +78,11 @@ namespace PrevenSex
                 Intent intent = new Intent(this, typeof(PreguntasfrecuentesCls));
                 StartActivity(intent);
             }
+            else if (id == Resource.Id.btn_action_acercaDe)
+            {
+                /*Intent intent = new Intent(this, typeof(AcercaDeCls));
+                StartActivity(intent);*/
+            }
             return base.OnOptionsItemSelected(item);
         }
     }
