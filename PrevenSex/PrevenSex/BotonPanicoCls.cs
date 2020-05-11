@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace PrevenSex
 {
-    [Activity(Label = "Botón de panico", Theme = "@style/AppTheme.NoActionBar")]
+    [Activity(Label = "Botón de pánico", Theme = "@style/AppTheme.NoActionBar")]
     public class BotonPanicoCls : AppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)
@@ -22,6 +22,7 @@ namespace PrevenSex
             SetContentView(Resource.Layout.botonPanico_main);
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
+
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
