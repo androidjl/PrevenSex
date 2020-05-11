@@ -35,8 +35,8 @@ namespace PrevenSex
             int id = item.ItemId;
             if (id == Resource.Id.btn_action_botonPanico)
             {
-               /* Intent intent = new Intent(this, typeof(BotonPanicoCls));
-                StartActivity(intent);*/
+                /* Intent intent = new Intent(this, typeof(BotonPanicoCls));
+                 StartActivity(intent);*/
             }
             else if (id == Resource.Id.btn_action_detectarViolencia)
             {
@@ -81,6 +81,11 @@ namespace PrevenSex
             else if (id == Resource.Id.btn_action_acercaDe)
             {
                 Intent intent = new Intent(this, typeof(AcercaDeCls));
+                StartActivity(intent);
+            }
+            else if (id == Resource.Id.btn_action_contactanos)
+            {
+                Intent intent = new Intent(this, typeof(ContactanosCls));
                 StartActivity(intent);
             }
             return base.OnOptionsItemSelected(item);
