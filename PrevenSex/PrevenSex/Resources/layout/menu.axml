@@ -25,7 +25,8 @@
 		android:layout_height="fill_parent"
 		android:columnCount="3"
 		android:rowCount="9"
-		android:padding="15dp"
+		android:paddingTop="25dp"
+		android:paddingHorizontal="15dp"
 		app:layout_behavior="@string/appbar_scrolling_view_behavior"
 		>
 		<TextView
@@ -110,8 +111,9 @@
 			android:textAlignment="center"
 			
 		/>
-		
+
 	</GridLayout>
+
 
 </android.support.design.widget.CoordinatorLayout>
 

@@ -24,7 +24,7 @@
 		android:layout_height="fill_parent"
 		android:columnCount="4"
 		android:rowCount="12"
-		android:padding="15dp"
+		android:paddingTop="25dp"
 		app:layout_behavior="@string/appbar_scrolling_view_behavior"
 		>
 		<TextView
