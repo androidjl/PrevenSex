@@ -18,14 +18,81 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
-
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/llamadasEmergencia_main">
-</RelativeLayout>
+	<GridLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:columnCount="4"
+		android:rowCount="12"
+		android:padding="15dp"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"
+		>
+		<TextView
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="2"
+			android:text="Policia"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/img_boton_police"
+			android:drawableTop="@mipmap/img_boton_police"
+			android:textAlignment="center"
+		/>
+		<TextView
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="2"
+			android:text="Cruz roja"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/img_boton_cruz_roja"
+			android:drawableTop="@mipmap/img_boton_cruz_roja"
+			android:textAlignment="center"
+		/>
+		<TextView
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="2"
+			android:text="Bomberos"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/img_boton_bomberos"
+			android:drawableTop="@mipmap/img_boton_bomberos"
+			android:textAlignment="center"
+		/>
+		<TextView
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="2"
+			android:text="Emergencias"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/img_boton_emergencias066"
+			android:drawableTop="@mipmap/img_boton_emergencias066"
+			android:textAlignment="center"
+		/>
+		<TextView
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="2"
+			android:text="Proteccion Civil"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/img_boton_proteccion_civil"
+			android:drawableTop="@mipmap/img_boton_proteccion_civil"
+			android:textAlignment="center"
+		/>
+		<TextView
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="2"
+			android:text="Caso de violencia"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/img_boton_detectarviolencia"
+			android:drawableTop="@mipmap/ic_detectarviolencia"
+			android:textAlignment="center"
+		/>
+	</GridLayout>
 
 </android.support.design.widget.CoordinatorLayout>

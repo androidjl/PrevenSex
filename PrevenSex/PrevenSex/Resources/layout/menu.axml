@@ -28,77 +28,87 @@
 		android:padding="15dp"
 		app:layout_behavior="@string/appbar_scrolling_view_behavior"
 		>
-		<ImageButton
+		<TextView
+			android:text="Botón de pánico"
+			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"
-			android:src="@mipmap/ic_botonpanico"
 			android:id="@+id/img_btn_botonpanico"
-			android:background="#00ffffff" 
-			android:layout_margin="5dp"
+			android:drawableTop="@mipmap/ic_botonpanico"
+			android:textAlignment="center"
 		/>
-		<ImageButton
+		<TextView
+			android:text="Mis contactos"
+			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"
-			android:src="@mipmap/ic_miscontactosconfianza"
 			android:id="@+id/img_btn_miscontactosconfianza"
-			android:background="#00ffffff" 
-			android:layout_margin="5dp"
+			android:drawableTop="@mipmap/ic_miscontactosconfianza"
+			android:textAlignment="center"
 		/>
-		<ImageButton
+		<TextView
+			android:text="Llamadas"
+			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"
-			android:src="@mipmap/ic_llamadasemergencia"
 			android:id="@+id/img_btn_llamadasEmergencia"
-			android:background="#00ffffff" 
-			android:layout_margin="5dp"
+			android:drawableTop="@mipmap/ic_llamadasemergencia"
+			android:textAlignment="center"
 		/>
-		<ImageButton
+		<TextView
+			android:text="Clínicas ILE"
+			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"
-			android:src="@mipmap/ic_interrupcionlegalembarazo"
 			android:id="@+id/img_btn_interrupcionLegalEmbarazo"
-			android:background="#00ffffff" 
-			android:layout_margin="5dp"
+			android:drawableTop="@mipmap/ic_interrupcionlegalembarazo"
+			android:textAlignment="center"
 		/>		
-		<ImageButton
+		<TextView
+			android:text="Serv. médicos"
+			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"
-			android:src="@mipmap/ic_serviciosmedicosadolecentes"
 			android:id="@+id/img_btn_serviciosMedicosAdolecentes"
-			android:background="#00ffffff" 
-			android:layout_margin="5dp"
+			android:drawableTop="@mipmap/ic_serviciosmedicosadolecentes"
+			android:textAlignment="center"
 		/>
-		<ImageButton
+		<TextView
+			android:text="Deten. violencia"
+			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"
-			android:src="@mipmap/ic_detectarviolencia"
 			android:id="@+id/img_btn_detectarViolencia"
-			android:background="#00ffffff"
-			android:layout_margin="5dp"
+			android:drawableTop="@mipmap/ic_detectarviolencia"
+			android:textAlignment="center"
 		/>
-		<ImageButton
+		<TextView
+			android:text="Interacción"
+			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"
-			android:src="@mipmap/ic_interaccion"
 			android:id="@+id/img_btn_interaccion"
-			android:background="#00ffffff" 
-			android:layout_margin="5dp"
+			android:drawableTop="@mipmap/ic_interaccion"
+			android:textAlignment="center"
 		/>
-		<ImageButton
+		<TextView
+			android:text="Encuestas"
+			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_columnWeight="1"
-			android:layout_rowWeight="1"
-			android:src="@mipmap/ic_encuestas"
+			android:layout_rowWeight="1"			
 			android:id="@+id/img_btn_encuestas"
-			android:background="#00ffffff" 
-			android:layout_margin="5dp"
+			android:drawableTop="@mipmap/ic_encuestas"
+			android:textAlignment="center"
 		/>
-		<ImageButton
+		<TextView
+			android:text="Preg. frecuentes"
+			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_columnWeight="1"
-			android:layout_rowWeight="1"
-			android:src="@mipmap/ic_preguntasfrecuentes"
+			android:layout_rowWeight="1"		
 			android:id="@+id/img_btn_preguntasFrecuentes"
-			android:background="#00ffffff" 
-			android:layout_margin="5dp"
+			android:drawableTop="@mipmap/ic_preguntasfrecuentes"
+			android:textAlignment="center"
+			
 		/>
 		
 	</GridLayout>

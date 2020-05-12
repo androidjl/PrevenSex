@@ -13,17 +13,20 @@ using Android.Widget;
 
 namespace PrevenSex
 {
-    [Activity(Label = "Clinicas de Interrupción Legal del Embarazo", Theme = "@style/AppTheme.NoActionBar")]
+    [Activity(Label = "Interrupción Legal del Embarazo", Theme = "@style/AppTheme.NoActionBar")]
     public class InterrupcionLegalEmbarazoCls : AppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.acercaDe_main);
+            SetContentView(Resource.Layout.interrupcionLegalEmbarazo_main);
+
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
+            
+          
         }
-
+       
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
             MenuInflater.Inflate(Resource.Menu.menu_main, menu);

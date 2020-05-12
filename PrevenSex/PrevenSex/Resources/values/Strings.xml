@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">PrevenSex</string>
     <string name="action_settings">Settings</string>
+    <string-array name="municipios_array">
+      <item>San Cristóbal de Las Casas</item>
+      <item>Tuxtla Gutierrez</item>
+      <item>Comitan</item>
+      <item>Teopisca</item>
+      <item>Ocosingo</item>
+      <item>San Juan Chamula</item>
+      <item>Berriozabal</item>
+      <item>Coita</item>
+    </string-array>
 </resources>

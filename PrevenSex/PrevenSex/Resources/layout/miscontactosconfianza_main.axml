@@ -138,12 +138,12 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_weight="1"
-				android:text="3" />
+				android:text="Pedro" />
 			<TextView
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_weight="1"
-				android:text="Trishika Dasari" />
+				android:text="967 123 45 67" />
 			<ImageView
 				android:src="@android:drawable/ic_menu_call"
 				android:layout_width="35dp"
@@ -173,12 +173,12 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_weight="1"
-				android:text="3" />
+				android:text="Ana" />
 			<TextView
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_weight="1"
-				android:text="Trishika Dasari" />
+				android:text="992 125 20 20" />
 			<ImageView
 				android:src="@android:drawable/ic_menu_call"
 				android:layout_width="35dp"
@@ -208,12 +208,12 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_weight="1"
-				android:text="3" />
+				android:text="Judith" />
 			<TextView
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_weight="1"
-				android:text="Trishika Dasari" />
+				android:text="992 168 15 14" />
 			<ImageView
 				android:src="@android:drawable/ic_menu_call"
 				android:layout_width="35dp"
