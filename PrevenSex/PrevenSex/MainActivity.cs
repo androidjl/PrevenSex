@@ -10,7 +10,7 @@ using Android.Widget;
 
 namespace PrevenSex
 {
-    [Activity(Label = "PrevenSex",Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
+    [Activity(Label = "",Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
 

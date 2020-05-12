@@ -19,7 +19,7 @@ namespace PrevenSex
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.acercaDe_main);
+            SetContentView(Resource.Layout.encuestas_main);
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
         }
@@ -33,6 +33,11 @@ namespace PrevenSex
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
             int id = item.ItemId;
+            if (id == Resource.Id.btn_action_menu)
+            {
+                Intent intent = new Intent(this, typeof(MenuCls));
+                StartActivity(intent);
+            }
             if (id == Resource.Id.btn_action_botonPanico)
             {
                 Intent intent = new Intent(this, typeof(BotonPanicoCls));

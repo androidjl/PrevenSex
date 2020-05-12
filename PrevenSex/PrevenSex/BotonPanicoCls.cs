@@ -34,6 +34,11 @@ namespace PrevenSex
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
             int id = item.ItemId;
+            if (id == Resource.Id.btn_action_menu)
+            {
+                Intent intent = new Intent(this, typeof(MenuCls));
+                StartActivity(intent);
+            }
             if (id == Resource.Id.btn_action_botonPanico)
             {
                 /* Intent intent = new Intent(this, typeof(BotonPanicoCls));

@@ -19,13 +19,75 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/serviciosMedicosAdolecentes_main">
-</RelativeLayout>
+    <GridLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:columnCount="1"
+		android:rowCount="6"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		
+		<ImageView
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="1"
+			android:src="@mipmap/ic_serviciosmedicosadolecentes"
+			android:id="@+id/imageView1"
+			android:layout_margin="15dp"
+			
+		/>
+		<TextView
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="1"
+			android:textColor="#ff000000"
+			android:textAlignment="center"
+			android:text="Servicios médicos cerca de ti:"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/textView1"
+		/>
+		<Spinner  
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="1"
+			android:layout_width="match_parent"  
+			android:layout_height="wrap_content"  
+			android:id="@+id/spinner1"
+			android:layout_margin="20dp"
+		/>  
+		<Spinner  
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="1"
+			android:layout_width="match_parent"  
+			android:layout_height="wrap_content"  
+			android:id="@+id/spinner2"
+			android:layout_margin="20dp"
+		/>  
+		<Spinner  
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="1"
+			android:layout_width="match_parent"  
+			android:layout_height="wrap_content"  
+			android:id="@+id/spinner3"
+			android:layout_margin="20dp"
+		/>
+		<Button
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_rowSpan="1"
+			android:layout_columnSpan="1"
+			android:text="Buscar"
+			android:id="@+id/button1"
+			android:layout_margin="20dp"
+			android:background="#ff00bfa5" />  
+
+	</GridLayout>
 
 </android.support.design.widget.CoordinatorLayout>
